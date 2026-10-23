@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FLOAK UP — Where New Artists Rise</title>
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FLOAK UP — Where New Artists Rise</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #0b0912;
+  color: #f7f4ff;
+  font-family: Arial, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 8%;
+  border-bottom: 1px solid #292333;
+}
+.logo { font-size: 25px; font-weight: 900; letter-spacing: 2px; }
+.logo span { color: #b58aff; }
+nav a { color: #c9c2d6; text-decoration: none; margin-left: 18px; }
+.hero {
+  padding: 80px 8% 65px;
+  background: radial-gradient(ellipse at 75% 30%, #392052, #0b0912 60%);
+}
+.tag { color: #c8a5ff; letter-spacing: 3px; font-size: 12px; }
+h1 { font-size: clamp(44px, 8vw, 84px); line-height: 1.05; margin: 20px 0; }
+h1 span { color: #b58aff; }
+p { color: #b8afc7; line-height: 1.8; }
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  background: #b58aff;
+  color: #160c22;
+  padding: 14px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+section { padding: 35px 8% 60px; }
+.artists {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 18px;
+}
+.card {
+  background: #171320;
+  border: 1px solid #30263d;
+  padding: 22px;
+  border-radius: 14px;
+}
+.art {
+  height: 120px;
+  border-radius: 10px;
+  display: grid;
+  place-items: center;
+  font-size: 40px;
+  background: linear-gradient(135deg, #52316c, #201c39, #a05c8c);
+}
+.card p { font-size: 14px; }
+.listen { color: #c9aaff; text-decoration: none; font-size: 14px; }
+.notice { font-size: 12px; color: #8f849e; }
+footer {
+  border-top: 1px solid #292333;
+  padding: 25px 8%;
+  color: #8f849e;
+  font-size: 13px;
+}
+@media (max-width: 600px) {
+  header { padding: 20px 5%; }
+  .hero, section { padding-left: 5%; padding-right: 5%; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">FLOAK <span>UP.</span></div>
+  <nav>
+    <a href="#artists">ศิลปิน</a>
+    <a href="#about">เกี่ยวกับเรา</a>
+  </nav>
+</header>
+<main>
+  <div class="hero">
+    <div class="tag">WHERE NEW ARTISTS RISE</div>
+    <h1>Find music<br>you haven't<br><span>found yet.</span></h1>
+    <p>ค้นพบศิลปินหน้าใหม่ เพลงใหม่ และเสียงดนตรีที่คุณอาจไม่เคยรู้จักมาก่อน</p>
+    <a class="button" href="#artists">ค้นพบศิลปิน →</a>
+  </div>
+  <section id="artists">
+    <h2>Discover Artists.</h2>
+    <p>เพลงดีๆ ที่อาจยังไม่มีใครค้นพบ</p>
+    <div class="artists">
+      <article class="card">
+        <div class="art">♫</div>
+        <h3>ศิลปินคนที่ 1</h3>
+        <p>ใส่ชื่อ แนวเพลง และเรื่องราวของศิลปินที่นี่</p>
+        <a class="listen" href="https://soundcloud.com/" target="_blank" rel="noopener noreferrer">ไปฟังเพลง ↗</a>
+      </article>
+      <article class="card">
+        <div class="art">♪</div>
+        <h3>ศิลปินคนที่ 2</h3>
+        <p>พื้นที่แนะนำผลงานของศิลปินอิสระหน้าใหม่</p>
+        <a class="listen" href="https://bandcamp.com/" target="_blank" rel="noopener noreferrer">ไปฟังเพลง ↗</a>
+      </article>
+      <article class="card">
+        <div class="art">♫</div>
+        <h3>ศิลปินคนที่ 3</h3>
+        <p>เสียงใหม่ที่รอให้คนฟังได้ค้นพบ</p>
+        <a class="listen" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">ไปฟังเพลง ↗</a>
+      </article>
+    </div>
+    <p class="notice">นี่คือต้นแบบทดลอง ลิงก์ยังเป็นลิงก์ทั่วไป ไม่ใช่เพลงของศิลปินที่ระบุ</p>
+  </section>
+  <section id="about">
+    <h2>Every artist starts somewhere.</h2>
+    <p>FLOAK UP อยากช่วยให้ศิลปินหน้าใหม่ถูกค้นพบ</p>
+  </section>
+</main>
+<footer>© 2026 FLOAK UP. Where New Artists Rise.</footer>
+</body>
+</html>
